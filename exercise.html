@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <title>ToDo App</title>
+    <script>
+      // TODO: Write your JavaScript commands here
+        document.addEventListener('DOMContentLoaded', () => {
+          // TODO: Create variable to select the form tag in HTML to be used later
+            
+
+          // TODO: Create variable to select the ul tag in HTML to be used later
+            
+
+          // TODO: Create variable to select the submit button in HTML to be used later
+            
+
+          // TODO: Create variable to select the task input in HTML to be used later
+            
+
+          // TODO: Set default action for the submit button when you enter on the page
+  
+
+          // TODO: Listen for input to be typed into the input field
+            
+            
+            // TODO: When there is nothing typed in the input, turns the submit button disabled
+                
+          
+            // TODO: When there is something typed in the input, turns the submit button enable
+            
+
+          // TODO: Listen when submit the task
+            
+            // TODO: Prevents the default submission of the form which involves either reloading the current page or redirecting to a new one
+                
+          
+            // TODO: Create a <li> tag using the createElement function
+            
+          
+            // TODO: Add newtask value in list item using innerHTML function
+                
+          
+            // TODO: Create a <button> tag to each individual <li> created
+                
+          
+            // TODO: Add message 'Delete' in the button using innerHTML function
+                
+          
+            // TODO: Listen When delete button is clicked
+                
+            
+              // TODO: Remove the item from list (use removeChild function)
+              
+
+              // TODO: We can then add the deleteButton to the <li> tag using the appendChild function
+              
+
+            // TODO: We can then add the <li> tag to <ul> tag using the appendChild function
+                
+            
+            // TODO: Clear the value of newtask variable and set it to empty
+                
+          
+            //  TODO: Disable button when there is nothing in newtask
+                
+        }
+      
+    </script>
+</head>
+  <body>
+    <h1>Todo App</h1>
+    <div>
+        <!--Creates an unordered list to display the tasks-->
+        <!--The javascript code will handle the list items-->
+        <ul id="tasks"></ul>
+    </div>
+
+    <!--Creates a form to the user inputs a new task-->
+    <div>
+        <form>
+            <!--This input field is to type the new task-->
+            <input id="task" placeholder = "New Task" type="text">
+          
+            <!--This input field is to create a submit button-->
+            <input id="submit" type="submit">
+        </form>
+    </div>
+  </body> 
+</html>
